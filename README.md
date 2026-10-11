@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # inventory-app
 
 Sample **Inventory Management** web application for the *EAD – DevOps Fundamentals with GitHub Actions and Docker* lab.
@@ -64,3 +65,6 @@ src/test/java/...                    JUnit 5 tests (Calculator, Service, REST co
 * The starter intentionally has **no** `Dockerfile` and **no** `.github/workflows` folder – students create these in Tasks 4 and 6.
 * The Dockerfile from the lab sheet uses `COPY target/*.jar app.jar`, so run `mvn clean install` **before** `docker build`.
 * Run the container with a published port to open it in a browser: `docker run -p 8080:8080 inventory-app`.
+=======
+# inventory-app
+>>>>>>> 82f1be4379214e54cca2832d2fe5f281bf84fb8c
